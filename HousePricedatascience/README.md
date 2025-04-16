@@ -1,20 +1,19 @@
-# Titanic Survival Prediction
+# House Price Prediction
 
-This project builds a machine learning model to predict the survival of passengers aboard the Titanic. It uses demographic and passenger class data to train a classification model.
+This regression model predicts house sale prices based on key property features using a linear regression model.
 
 ## Features
-- Predict survival based on Pclass, Sex, Age, and Fare.
-- Uses Random Forest classifier.
+- Predicts price from Overall Quality, Living Area, Garage Cars, and Basement Square Footage.
+- Uses Linear Regression.
 
 ## Dataset
-- Source: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
-- Input: `train.csv`
+- Source: Ames Housing Dataset (Kaggle)
+- Input file: `house.csv`
 
 ## Libraries Used
 - Pandas
 - Scikit-learn
 
 ## How to Run
-Place the Titanic `train.csv` file in a `data/` directory before running the notebook.# 02 House Price Prediction
-
-This project is part of a data science series.
+1. Place `house.csv` in a `data/` directory.
+2. Open the Jupyter notebook and run all cells.
